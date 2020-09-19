@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  color: #4a4a4d;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1rem;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+
+p {
+  line-height: 2;
+  font-size: 0.95rem;
+}
+
+hr {
+  border: 6px dotted #b5b5b5;
+  border-bottom: none;
+  width: 4%;
+  margin: 4.5rem auto;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-image: url("../images/opening-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  color: lightgrey;
+  position: relative;
+}
+.tag-line {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 30%;
+}
+
+.middle-container .profile h2 {
+  color: #66bfbf;
+}
+
+.middle-container .profile h3 {
+  color: #11999e;
+}
+
+.middle-container .experience h2 {
+  color: #66bfbf;
+}
+
+.middle-container .experience h3 {
+  color: #11999e;
+}
+.middle-container .contact-me h2 {
+  color: #66bfbf;
+}
+
+.middle-container .contact-me h3 {
+  color: #11999e;
+}
+
+.middle-container .skill-row {
+  width: 50%;
+  margin: 5rem auto;
+  text-align: left;
+}
+
+.middle-container img {
+  border-radius: 100%;
+  width: 10rem;
+  height: 10rem;
+  transition: all 0.5s ease-in-out;
+}
+.middle-container img:hover {
+  opacity: 0.85;
+  transform: scale(1.1, 1.1);
+}
+
+.skill-row:nth-of-type(2n) .overlay {
+  float: left;
+  margin-right: 20px;
+}
+
+.skill-row:nth-of-type(2n + 1) .overlay {
+  float: right;
+  margin-left: 20px;
+}
+.skill-row .overlay {
+  margin-top: 2rem;
+}
+
+.middle-container .profile {
+  margin: 100px 0;
+}
+
+.intro {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.skills {
+  background-color: #23a0a0;
+  color: white;
+  padding: 2rem 0;
+}
+.skills h2 {
+  color: white;
+}
+.sill-row h3 {
+  color: white;
+}
+
+.certifications {
+  background-color: #23a0a0;
+  color: white;
+  padding: 2rem 0;
+}
+
+.certifications h2 {
+  color: white;
+}
+.certifications a {
+  color: white;
+}
+.certifications a:hover {
+  font-weight: bold;
+}
+
+.contact-me p {
+  width: 50%;
+  margin: 3rem auto;
+}
+
+.btn {
+  -moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
+  -webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #33bdef),
+    color-stop(1, #019ad2)
+  );
+  background: -moz-linear-gradient(center top, #33bdef 5%, #019ad2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2');
+  background-color: #33bdef;
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-left-radius: 8px;
+  text-indent: 0;
+  border: 1px solid #057fd0;
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  height: 42px;
+  line-height: 42px;
+  width: 150px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0px -1px 0px #5b6178;
+  margin-bottom: 5rem;
+}
+.btn:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #019ad2),
+    color-stop(1, #33bdef)
+  );
+  background: -moz-linear-gradient(center top, #019ad2 5%, #33bdef 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef');
+  background-color: #019ad2;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 3rem 0 2rem;
+}
+
+.bottom-container p {
+  padding: 1rem 0 0 0;
+  font-size: 1rem;
+  color: #eaf6f6;
+}
+
+.seperator-white {
+  border: 3px solid white;
+  border-bottom: none;
+  width: 4%;
+  margin: 0 auto;
+  position: relative;
+  animation: move 3s infinite linear;
+}
+
+.seperator-black {
+  border: 3px solid #66bfbf;
+  border-bottom: none;
+  width: 4%;
+  margin: 0 auto;
+  position: relative;
+  animation: move 3s infinite linear;
+}
+@keyframes move {
+  0% {
+    left: 0%;
+  }
+  25% {
+    left: -5%;
+  }
+  50% {
+    left: 0%;
+  }
+  75% {
+    left: 5%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+.remove-margin-bottom {
+  margin-bottom: 0;
+}
