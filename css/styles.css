@@ -143,6 +143,10 @@ span {
   margin-top: 2rem;
 }
 
+.white-border img {
+  border: 2px solid white;
+}
+
 .middle-container .profile {
   margin: 100px 0;
 }
@@ -160,7 +164,7 @@ span {
 .skills h2 {
   color: white;
 }
-.sill-row h3 {
+.skill-row h3 {
   color: white;
 }
 
@@ -291,4 +295,118 @@ span {
 
 .remove-margin-bottom {
   margin-bottom: 0;
+}
+
+/*Medium Sized Screen*/
+@media (min-width: 641px) and (max-width: 1007px) {
+  .top-container {
+    width: 100vw;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+  hr {
+    width: 3%;
+  }
+  .bottom-container p {
+    font-size: 0.8rem;
+  }
+  .seperator-white {
+    width: 3%;
+  }
+  .seperator-black {
+    width: 3%;
+  }
+  a {
+    font-size: 0.75rem;
+  }
+  .bottom-container a {
+    font-size: 0.85rem;
+  }
+  .certifications .skill-row {
+    width: 60%;
+  }
+  .btn {
+    width: 125px;
+    font-size: 1rem;
+    word-break: keep-all;
+  }
+}
+
+/*Small Sized Screen*/
+@media (max-width: 640px) {
+  .top-container {
+    width: 100vw;
+  }
+  .middle-container {
+    width: 100vw;
+  }
+  .bottom-container {
+    width: 100vw;
+  }
+  h1 {
+    font-size: 3.8rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.75rem;
+  }
+  hr {
+    width: 2.5%;
+  }
+  .bottom-container p {
+    font-size: 0.6rem;
+  }
+  .seperator-white {
+    width: 2.5%;
+  }
+  .seperator-black {
+    width: 2.5%;
+  }
+  a {
+    font-size: 0.75rem;
+    overflow: hidden;
+  }
+  .certifications .skill-row {
+    width: 60%;
+  }
+  img {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+  .skill-row:nth-of-type(2n) .overlay {
+    float: none;
+    margin-right: 0;
+  }
+
+  .skill-row:nth-of-type(2n + 1) .overlay {
+    float: none;
+    margin-left: 0;
+  }
+  .btn {
+    width: 100px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    word-break: keep-all;
+  }
+  .contact-me {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
